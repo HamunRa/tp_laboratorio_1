@@ -109,6 +109,11 @@ int main(void) {
 		mostrarInformacion (precioAerolineaForzado, kilometrosForzado, aerolineasDebito, aerolineasCredito, aerolineasBitcoin, aerolineasUnitario, precioLatamForzado, latamDebito, latamCredito, latamBitcoin, latamUnitario, diferenciaPrecios);
 
 		break;
+	case 6:
+		printf("\n¡Hasta la proxima!");
+		break;
+	default:
+		printf("\nError, ingrese una opcion valida\n");
 	}
 	} while (opcion != 6 ) ;
 return EXIT_SUCCESS;
