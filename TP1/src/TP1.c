@@ -109,9 +109,6 @@ int main(void) {
 		mostrarInformacion (precioAerolineaForzado, kilometrosForzado, aerolineasDebito, aerolineasCredito, aerolineasBitcoin, aerolineasUnitario, precioLatamForzado, latamDebito, latamCredito, latamBitcoin, latamUnitario, diferenciaPrecios);
 
 		break;
-	case 6:
-
-		break;
 	}
 	} while (opcion != 6 ) ;
 return EXIT_SUCCESS;
