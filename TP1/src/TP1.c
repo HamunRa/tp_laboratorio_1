@@ -107,7 +107,6 @@ int main(void) {
 		diferenciaPrecios = calcularDiferencia(precioAerolineaForzado, precioLatamForzado);
 
 		mostrarInformacion (precioAerolineaForzado, kilometrosForzado, aerolineasDebito, aerolineasCredito, aerolineasBitcoin, aerolineasUnitario, precioLatamForzado, latamDebito, latamCredito, latamBitcoin, latamUnitario, diferenciaPrecios);
-
 		break;
 	case 6:
 		printf("\n¡Hasta la proxima!");
@@ -116,5 +115,6 @@ int main(void) {
 		printf("\nError, ingrese una opcion valida\n");
 	}
 	} while (opcion != 6 ) ;
+
 return EXIT_SUCCESS;
 }
