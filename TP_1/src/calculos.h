@@ -10,7 +10,8 @@
 
 
 /// @fn void calcularValores (float, float, float*, float*, float*, float*)
-/// @brief
+/// @brief Se encarga de calcular los precios de los disintos medios de pago, mediante el precio de vuelo y los kilometros
+///luego lo retorna a traves de su puntero
 /// @param precioVuelo
 /// @param kilometros
 /// @param tarjetaDebito
