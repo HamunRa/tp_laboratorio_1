@@ -24,7 +24,7 @@ void calcularValores (float precioVuelo, float kilometros, float* tarjetaDebito,
 /// @fn float calcularDiferencia(float, float)
 /// @brief Se encarga de calcular la diferencia entre dos precios y devuelve el valor.
 /// @param precioAerolineas
-///	@param precioLatam
+/// @param precioLatam
 /// @return la diferencia entre los dos numeros
 float calcularDiferencia(float precioAerolineas, float precioLatam);
 
