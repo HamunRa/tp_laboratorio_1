@@ -22,7 +22,6 @@ void calcularValores (float precioVuelo, float kilometros, float* tarjetaDebito,
 	*bitcoin = precioVuelo / bitcoinValor;
 	*precioUnitario = precioVuelo / kilometros;
 
-	return;
 }
 
 float calcularDiferencia (float precioAerolineas, float precioLatam){
@@ -62,6 +61,5 @@ void mostrarInformacion(float precioAerolineas, float kilometros, float aeroline
 			printf("\nNo ingresaron ningun valor para Latam\n");
 		}
 
-	return;
 }
 
