@@ -2,7 +2,7 @@
  * ArrayPassenger.h
  *
  *  Created on: 11 may. 2022
- *      Author: Luis
+ *      Author: Lucas
  */
 
 #ifndef ARRAYPASSENGER_H_
